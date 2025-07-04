@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 tab1, tab2, tab3 = st.tabs(["Geral", "Tabela SH4 Description", "Estatísticas"])
 
-file_path = "C:\\project\\streamlit-bitcoin\\data\\exportacoes_franca.csv"
+file_path = "data/exportacoes_franca.csv"
 
 dataset = dl.load_dataset(file_path)
 
